@@ -1,4 +1,5 @@
 import BegleiteUns from "./components/BegleiteUns"
+import Contact from "./components/contact"
 import Gemeinschaft from "./components/Gemeinschaft"
 import Goenner from "./components/Goenner"
 import Hero from "./components/Hero"
@@ -17,6 +18,7 @@ const Home = () => {
         <BegleiteUns />
         <Gemeinschaft />
         <Partners />
+        <Contact />
     </main>
   )
 }
