@@ -31,7 +31,7 @@ const Navbar = ({navbarItems, logo}) =>{
                         navbarItems.map(({link, label}, index) =>
                             <li className="font-bold" key={index+label}>
                                 <a
-                                    className="px-5 pb-1 hover:border-b-2 hover: hover:text-red-600" 
+                                    className="px-5 pb-1 hover:border-b-2 hover:cursor-pointer hover:text-red-600" 
                                     to={link}
                                     > {label} 
                                 </a>
