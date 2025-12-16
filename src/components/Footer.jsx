@@ -53,7 +53,7 @@ const Footer = ({ subPages, contactInfo }) => {
                 </div>
                 <div className="mt-4 lg:mt-15">
                     <p>This website was independently designed and developed by <a className="underline" target="_blank" href="https://miguelcosta.xyz/">Miguel Costa</a> as part of a technical interview.</p>
-                    <p>More details on <a href="https://github.com/MAFernCosta/swissalbaniannetwork.ch" target="_blank">GitHub</a></p>
+                    <p>More details on <a href="https://github.com/MAFernCosta/swissalbaniannetwork.ch" className="underline" target="_blank">GitHub</a></p>
                 </div>
             </div>
         </footer>
