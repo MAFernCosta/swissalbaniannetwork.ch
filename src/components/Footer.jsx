@@ -27,7 +27,7 @@ const Footer = ({ subPages, contactInfo }) => {
                         <h5 className="text-xl mb-4">Soziale Medien</h5>
                         <ul className="flex mb-3">
                             {contactInfo.socialNetwork.map(({ label, link, icon }, index) =>
-                                <li key={index + label} className="me-10">
+                                <li key={index + label + "Footer"} className="me-10">
                                     <a
                                         className="bg-neutral-200 inline-block rounded-4xl text-3xl text-[#0a0a0a] p-2"
                                         target="_blank"
@@ -53,7 +53,7 @@ const Footer = ({ subPages, contactInfo }) => {
                 </div>
                 <div className="mt-4 lg:mt-15">
                     <p>This website was independently designed and developed by <a className="underline" target="_blank" href="https://miguelcosta.xyz/">Miguel Costa</a> as part of a technical interview.</p>
-                    <p>More details on <a href="#" target="_blank">GitHub</a></p>
+                    <p>More details on <a href="https://github.com/MAFernCosta/swissalbaniannetwork.ch" target="_blank">GitHub</a></p>
                 </div>
             </div>
         </footer>
