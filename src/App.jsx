@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { FaLinkedin, FaInstagram  } from "react-icons/fa";
+import Home from "./pages/home/home";
 
 
 
@@ -53,6 +54,7 @@ const App = () =>{
     return(
         <>
             <Navbar navbarItems={subPages} logo={contactInfo.logo}/>
+            <Home />
             <Footer subPages={subPages} contactInfo={contactInfo}/>
         </>
     )
