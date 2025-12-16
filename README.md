@@ -12,6 +12,7 @@ The site is deployed using **GitHub Pages**.
 - **TailwindCSS** (styling)
 - **react-multi-carousel** (carousel component)
 - **gh-pages** (deployment)
+- **react-icons** (icons)
 
 ---
 
