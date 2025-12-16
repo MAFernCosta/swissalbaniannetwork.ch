@@ -17,7 +17,7 @@ The site is deployed using **GitHub Pages**.
 ---
 
 ## **Live Demo**
-[View on GitHub Pages](https://maferncosta.github.io/swissalbanianetwork.ch/)
+[View on GitHub Pages](https://maferncosta.github.io/swissalbaniannetwork.ch/)
 
 ---
 
